@@ -8,6 +8,8 @@ import {AuthInterceptor} from '@core/helpers/auth-interceptor';
 
 import {AppComponent} from './app.component';
 import {UnderconstructionPage} from '@core/ui/pages/underconstruction/underconstruction.page';
+import { IonicModule } from '@ionic/angular';
+import { LandingModule } from "@pages/landing/landing.module";
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import {UnderconstructionPage} from '@core/ui/pages/underconstruction/underconst
         BrowserModule,
         BrowserAnimationsModule,
         HttpClientModule,
-        AppRoutingModule
+        AppRoutingModule,
+        LandingModule,
+        IonicModule.forRoot(),
     ],
     providers: [
         HttpClient,

@@ -1,0 +1,10 @@
+{
+  "defaultProject": "eagenda",
+  "projects": {
+    "eagenda": {
+      "name": "eagenda",
+      "integrations": {},
+      "type": "angular"
+    }
+  }
+}

@@ -5,12 +5,17 @@ import {DashboardPage} from '@pages/home/dashboard/dashboard.page';
 import {AuthGuard} from '@core/guards/auth.guard';
 import {NoAuthGuard} from '@core/guards/noAuth.guard';
 import {LogoutGuard} from '@core/guards/logout.guard';
+import { LandingComponentPage } from '@pages/landing/landing.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'under-construction',
+    redirectTo: 'landing',
     pathMatch: 'full'
+  },
+  {
+    path: 'landing',
+    component: LandingComponentPage
   },
 
   // -------------------- Auth Routes --------------------

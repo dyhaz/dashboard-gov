@@ -1,0 +1,94 @@
+<ng-container>
+  <div
+    class="
+          flex flex-col
+          max-w-[490px]
+          justify-start
+          items-start
+          px-[70px]
+          py-[162px]
+        "
+  >
+    <div
+      class=" text-black text-[14px] tracking-[0%] text-center"
+    >
+      Silakan login terlebih dahulu
+    </div>
+    <div
+      class="
+            flex
+            max-w-[350px]
+            h-[30px]
+            w-[350px]
+            bg-[rgba(113,83,134,1)]
+            mt-[2px]
+            rounded-[5px]
+          "
+    ></div>
+    <div><input type="text" placeholder="Masukkan Username" style="z-index:100; top: -30px; position: relative;"/>
+      <div
+        class="
+            max-w-[125px]
+            text-white text-[14px]
+            tracking-[0%]
+            text-center
+            mt-[2px]
+          "
+      >
+<!--        Masukan Username-->
+      </div>
+    </div>
+    <div
+      class="
+            flex
+            max-w-[350px]
+            h-[30px]
+            w-[350px]
+            bg-[rgba(113,83,134,1)]
+            mt-[2px]
+            rounded-[5px]
+          "
+    ></div>
+    <div><input type="password" placeholder="Masukkan Password" style="z-index:100; top: -30px; position: relative;"/>
+      <div
+        class="
+            max-w-[123px]
+            text-white text-[14px]
+            tracking-[0%]
+            text-center
+            mt-[2px]
+          "
+      >
+<!--        Masukan Password-->
+      </div>
+    </div>
+    <div
+      tappable
+      (click)="login()"
+      class="
+            flex
+            max-w-[105px]
+            h-[30px]
+            w-[105px]
+            bg-[rgba(113,83,134,1)]
+            mt-[2px]
+            rounded-[5px]
+          "
+    ></div>
+    <div
+      tappable
+      (click)="login()"
+      style="z-index: 100; top: -30px; width: 100%"
+      class="
+            max-w-[105px]
+            text-white text-[14px]
+            tracking-[0%]
+            text-center
+            mt-[2px]
+            position-relative
+          "
+    >
+      Masuk
+    </div>
+  </div>
+</ng-container>
